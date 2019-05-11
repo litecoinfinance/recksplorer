@@ -17,7 +17,7 @@ class DataStore {
     @observable selectedObject = {};
 
     // Bitcoin price in usd
-    @observable usdbtc;
+    @observable usdltfn;
 
     selectObject(object, source) {
         this.selectedObject = {object, source};
@@ -70,8 +70,8 @@ class DataStore {
     }
 
     fetchPrice() {
-        Axios.get('https://blockchain.info/ticker').then((result) => {
-            this.usdbtc = result.data.USD.last;
+        Axios.get('https://blockchain.info/none').then((result) => {
+            this.usdltfn = result.data.USD.last;
         });
     }
 }
