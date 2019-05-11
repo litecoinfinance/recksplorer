@@ -17,7 +17,7 @@ export default class Credits extends React.Component {
                 <tbody>
                     <tr>
                         <td>LTFN</td>
-                        <td>NSZM6j8Q1ojnDg1PFNViaUkhjjT9ZcE7q7/td>
+                        <td>NSZM6j8Q1ojnDg1PFNViaUkhjjT9ZcE7q7</td>
                     </tr>
                     <tr>
                         <td>LN</td>
