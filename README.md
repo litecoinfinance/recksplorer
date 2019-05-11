@@ -7,7 +7,7 @@ This is a simple lightning network explorer that uses [LND](https://github.com/l
 Clone repository:
 
 ```
-git clone https://github.com/chemicstry/litecoinfinance.git
+git clone https://github.com/litecoinfinance/recksplorer.git
 ```
 
 Install npm dependencies (inside project folder):
